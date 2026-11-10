@@ -1,3 +1,8 @@
+# .glob pesquisa com  eficiencia arquivos que correspondem a um padrão
+# (nomes ou extensões semelhantes) em uma pasta, 
+# mas não pesquisa em subpastas. 
+# se você quiser pesquisar em subpastas também, 
+# você pode usar o método .rglob().
 from pathlib import Path
 
 pasta = Path(r"C:\Users\André\Downloads")
